@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("new.jpg") no-repeat; 
+    background-size: 100%;
+}
+header {
+    position: fixed;
+    top: 5%;
+    left: -1;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    background-size: 1;
+}
